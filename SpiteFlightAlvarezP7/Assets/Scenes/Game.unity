@@ -174,7 +174,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -186,11 +186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.45
+      value: -6.23
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.18000007
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -224,6 +224,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.87
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (1)
@@ -248,7 +260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -260,11 +272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.959999
+      value: -13.52
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.08
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -298,6 +310,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.388
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (3)
@@ -327,15 +351,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.73
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.41
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -369,6 +393,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 107.981
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (8)
@@ -393,15 +429,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.380001
+      value: -19.45
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.58
+      value: -8.89
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -434,6 +470,18 @@ PrefabInstance:
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 18.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -769,15 +817,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9995
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.79
+      value: -9.08
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.24
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -811,6 +863,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -16.13
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (6)
@@ -830,7 +894,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -838,15 +902,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 1.58055
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.84
+      value: -16.26
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.6499996
+      value: -2.09
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -880,6 +944,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -18.14
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (2)
@@ -899,7 +975,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -911,11 +987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.997923
+      value: -20.35
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1937768
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -949,6 +1025,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -76.311
       objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
+      objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
       value: Obstacle (5)
@@ -968,7 +1056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2470913522860831737, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_GravityScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -980,11 +1068,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7799997
+      value: -1.27
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.33
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1017,6 +1105,18 @@ PrefabInstance:
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 16.867
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSize
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: minSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
+      propertyPath: maxSpeed
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1460,11 +1560,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 10.1
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.01
       objectReference: {fileID: 0}
     - target: {fileID: 2543017671579130344, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_LocalPosition.z
