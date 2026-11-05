@@ -6,11 +6,15 @@ public class PlayerController : MonoBehaviour
 {
     private float elapsedTime = 0f;
     private float score = 0f;
+
     public float scoreMultiplier = 10f;
     public float thrustForce = 1f;
+
     Rigidbody2D rb;
+
     public UIDocument uiDocument;
     private Label scoreText;
+
     public float maxSpeed = 5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,10 +28,10 @@ public class PlayerController : MonoBehaviour
     {
         elapsedTime += Time.deltaTime;
         score = Mathf.FloorToInt(elapsedTime * scoreMultiplier);
-        Debug.Log("Score: " + score);
         scoreText.text = "Score: " + score;
 
         if (Mouse.current.leftButton.isPressed) {
+
             // Calculate the mouse position
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
             Vector2 direction = (mousePos - transform.position).normalized;
