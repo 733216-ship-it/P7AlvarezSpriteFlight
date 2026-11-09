@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
     {
         elapsedTime += Time.deltaTime;
         score = Mathf.FloorToInt(elapsedTime * scoreMultiplyer);
-        Debug.Log("Score: " + score);
         scoreText.text = "Score: " + score;
 
         if (Mouse.current.leftButton.isPressed) {
