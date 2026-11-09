@@ -6,16 +6,15 @@ public class PlayerController : MonoBehaviour
 {
     private float elapsedTime = 0f;
     private float score = 0f;
-
-    public float scoreMultiplier = 10f;
+    public float scoreMultiplyer = 10f;
     public float thrustForce = 1f;
 
     Rigidbody2D rb;
 
     public UIDocument uiDocument;
-    private Label scoreText;
 
     public float maxSpeed = 5f;
+    private Label scoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,7 +26,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         elapsedTime += Time.deltaTime;
-        score = Mathf.FloorToInt(elapsedTime * scoreMultiplier);
+        score = Mathf.FloorToInt(elapsedTime * scoreMultiplyer);
+        Debug.Log("Score: " + score);
         scoreText.text = "Score: " + score;
 
         if (Mouse.current.leftButton.isPressed) {
