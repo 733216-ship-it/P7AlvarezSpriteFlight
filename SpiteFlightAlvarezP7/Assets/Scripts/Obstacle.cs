@@ -7,6 +7,8 @@ public class Obstacle : MonoBehaviour
     public float minSpeed = 50f;
     public float maxSpeed = 150f;
 
+   
+
     Rigidbody2D rb;
 
     

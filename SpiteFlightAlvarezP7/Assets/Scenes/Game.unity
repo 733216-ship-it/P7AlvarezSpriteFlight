@@ -246,7 +246,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  m_Color: {r: 0.2509804, g: 0.8784314, b: 0.8156863, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -325,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -418,7 +418,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  m_Color: {r: 0.2509804, g: 0.8784314, b: 0.8156863, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -502,7 +502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -585,7 +585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -663,7 +663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1201,7 +1201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1282,7 +1282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1363,7 +1363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1444,7 +1444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648255323026296655, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: maxSpeed
-      value: 375
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 4741914184384758998, guid: de4f651b8ba53bf4498703643ea3c4a6, type: 3}
       propertyPath: m_Name
@@ -1595,6 +1595,7 @@ MonoBehaviour:
   thrustForce: 1
   uiDocument: {fileID: 1072558970}
   maxSpeed: 5
+  explosionEffect: {fileID: 4614110266398790614, guid: a0ec291e70c848a428b50b9b25212fca, type: 3}
 --- !u!1 &2053048876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,7 +1958,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  m_Color: {r: 0.2509804, g: 0.8784314, b: 0.8156863, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
